@@ -1,0 +1,10 @@
+<div ng-controller="DM.Listview.ProductsController as vm" class="umb-content-grid listView_product_grid">
+
+    <div class="umb-content-grid__item umb-outline umb-outline--surrounding ng-scope" ng-repeat="item in items" ng-class="{'-selected': item.selected}">
+        <div class="umb-content-grid__content">
+            <div class="thumbnail" style="background-image: url({{item.photos[0].src}}?width=300);" ng-click="vm.toggleItem(item)"></div>
+            <h5 style="vertical-align: middle"  ng-click="vm.goToItem(item)"><umb-icon icon="icon-tag"></umb-icon> {{item.productName || item.name}}</h5>
+            <p>{{item.price | currency}}</p>
+        </div>
+    </div>
+  </div>

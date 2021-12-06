@@ -1,0 +1,27 @@
+﻿.listView_product_grid {
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+
+
+	.listView_product_grid .thumbnail {
+		height: 175px;
+		background-size: cover;
+		background-position: center center
+	}
+
+	.listView_product_grid .icon-umb-media {
+		font-size: 120%;
+		transform: translateY(3px);
+	}
+
+	.listView_product_grid h5, .listView_product_grid p {
+		margin-bottom: 0;
+	}
+
+	.listView_product_grid h5:hover{
+		text-decoration:underline;
+	}
+
+.listView_product_grid .selected{
+	border-color: #00aea2;
+}

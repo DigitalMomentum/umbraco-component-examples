@@ -1,0 +1,8 @@
+﻿{
+	"css": [
+		"~/App_Plugins/DM.ListViews/Products/Products.css"
+	],
+	"javascript": [
+		"~/App_Plugins/DM.ListViews/Products/Products.controller.js"
+	]
+}
