@@ -4,7 +4,7 @@ This content list view component can be used to show a list of thumbnails and ti
 
 This example is geared towards showing a product, product name and price, however it can be altered to suit any data. 
 
-[Preview](_screenshots/listview.png)
+![Preview](_screenshots/listview.png)
 
 ## Trialing
 To trial this component, install Umbraco with the starter kit and use the instalation instructions below to use for the products list view. 
